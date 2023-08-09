@@ -14,7 +14,7 @@
 
 Compile the Kotlin source code
 ```BASH
-kotlinc src/hello.kt --include-runtime -d ./out/hello.jar
+kotlinc src/hello.kt -include-runtime -d out/hello.jar
 ```
 
 Run the actual Kotlin program
